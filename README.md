@@ -1,3 +1,3 @@
 # SimpleCPP
 
-Starter C++ code
+Simple basic C++ code
