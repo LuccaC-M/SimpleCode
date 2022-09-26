@@ -3,12 +3,14 @@
 
 using namespace std;
 
-int main() {
+int main(int argc, char *argv[]) {
 
-	cout << "Hello, what is your name? > ";
+	if (argc == 1) {
+		cout << "Hello, what is your name? > ";
 
-	string name;
-	cin >> name;
-	cout << "Hello, " << name << endl;
-
+		string name;
+		cin >> name;
+		cout << "Hello, " << name << endl;
+	}
+	cout << "Hello, " << argv[1] << endl;
 }
