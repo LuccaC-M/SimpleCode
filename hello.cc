@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-
+//	If there is no arguments ask for name
 	if (argc == 1) {
 		cout << "Hello, what is your name? > ";
 
@@ -12,5 +12,6 @@ int main(int argc, char *argv[]) {
 		cin >> name;
 		cout << "Hello, " << name << endl;
 	}
+//	Else print the name given
 	cout << "Hello, " << argv[1] << endl;
 }
