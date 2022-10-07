@@ -9,6 +9,8 @@ bool check_factor(int n, int i) {
   else {
         return false;
   }
+}
+
 int main() {
     
     int iMax;
