@@ -1,3 +1,3 @@
-# SimpleCPP
+# SimpleCode
 
-Simple basic C++ code
+SimpleCode, originally named SimpleCPP, is some basic code that I have done
