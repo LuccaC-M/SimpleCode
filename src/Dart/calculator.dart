@@ -2,6 +2,9 @@ import 'dart:io';
 
 int pow(int iPow, int iNumber) {
 
+  if (iPow == 0) {
+    return 1;
+  }
   int iTempNumber = iNumber;
 
   for (int i = 1; i < iPow; i++) {
