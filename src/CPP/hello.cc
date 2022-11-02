@@ -11,7 +11,8 @@ int main(int argc, char *argv[]) {
 		string name;
 		cin >> name;
 		cout << "Hello, " << name << endl;
+	} else {
+//  Else print argument
+		cout << "Hello, " << argv[1] << endl;
 	}
-//	Else print the name given
-	cout << "Hello, " << argv[1] << endl;
 }
