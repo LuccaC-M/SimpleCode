@@ -5,7 +5,10 @@
 #include <iostream>
 #include <string>
 #include <cctype>
+#include <sstream>
+
 #include "infostr.h"
+
 //**************
 //END OF IMPORTS
 //**************
@@ -21,10 +24,6 @@ int main(int argc, char *argv[]) {
     return 1;
   }
 
-// assing value to infArgvInfo
-  infostr infArgvInfo;
-  infArgvInfo.sText = argv[1] ;
-  infArgvInfo.string_info();
-//Printing the information
-  infArgvInfo.printf_info();
+  std::string info = infostr::string_info(argv[1]);
+  std::cout << info << std::endl;
 }
